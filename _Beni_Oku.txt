@@ -1,0 +1,39 @@
+ÖNEMLİ: proje mobil ve web olarak iki kısımdan oluşmaktadır mobil kısmı ekip arkadaşım Emirhan Özedil tarafından geliştirilmiştir. web tarafı Levent Kubaşık tarafından geliştirilmiştir.
+veri tabanı ortak olarak geliştrilmiştir yemek_web klasörü içerisndeki projeyi altta verilen talimatlarla çalıştrabilrisiniz. Mobil kısmını çalıştırmak için önce web kısmını import etmenziz gerekmektedir
+çünkü mobil taraf veri tabanına web kısmından api ile ulaşmaktadır.!!!
+
+Yemek tarifi paylaşımına odaklanan sosyal medya sitesi. PHP ve MySQL kullanır.
+
+## Özellikler
+
+- Kullanıcı kayıt ve giriş
+- Yemek tarifi paylaşımı
+- Tarif beğenme ve silme
+- Yorum yapma ve silme
+- Profil yönetimi (profil fotoğrafı, biyografi)
+- Tarif arama
+
+## WAMP server kurulum
+1. Wamp serveri sitesinden indirin ve kurulumunu yapın
+2. Programı başlatın
+3. "C:\wamp64\www"konumuna dosyaları taşıyın
+4. Web tarayıcınıza http://localhost/phpmyadmin/ konumuna gidin ve root ile giriş yapın
+5. "C:\wamp64\www\" konumundaki yemek_web isimli sql dosyasını import edin 
+6. Web tarayıcınıza "http://localhost/yemek_web/login.php" yazın
+7. Siteye Kayıt oluşturup inceliyebilirsiniz.
+
+## XAMPP server kurulum
+1.XAMPP server'ı sitesinden indirin ve kurulumunu yapın.
+2.Programı başlatın (XAMPP Control Panel üzerinden Apache ve MySQL'i "Start" ile çalıştırın).
+3.Proje klasörünü "C:\xampp\htdocs" konumuna taşıyın.
+4.Web tarayıcınızda http://localhost/phpmyadmin/ konumuna gidin.
+5."C:\xampp\htdocs\yemek_web" konumundaki sql dosyasını import edin.
+6.Web tarayıcınıza "http://localhost/yemek_web/login.php" yazın.
+7.Siteye kayıt oluşturup inceleyebilirsiniz.
+
+## MOBİL UYGULAMA ÇALIŞTIRMA 
+1.Android Studio indirin ve kurulumu yapın
+2.Bir emulator kurarak uygulamayı çalıştırabilirsiniz.
+ 
+
+

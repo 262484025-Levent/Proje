@@ -1,0 +1,12 @@
+# IDEs and Editors
+.idea/
+.vscode/
+.vs/
+*.suo
+*.user
+*.userossc
+*.sln.docstate
+
+# OS files
+Thumbs.db
+Desktop.ini
